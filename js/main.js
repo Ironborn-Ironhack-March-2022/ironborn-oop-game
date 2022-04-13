@@ -20,8 +20,13 @@ function drawDomElement(instance){
 }
 
 
+function removeDomElement(elm){
+    elm.remove();
+}
+
+
 /* Start game */
-const game = new Game(createDomElement, drawDomElement);
+const game = new Game(createDomElement, drawDomElement, removeDomElement);
 game.start();
 
 

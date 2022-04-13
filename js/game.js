@@ -1,13 +1,14 @@
 
 
 class Game {
-    constructor(create, draw){
+    constructor(create, draw, remove){
         this.time = 0;
         this.intervaId = null;
         this.player = null;
         this.obstacles = []; // array of instances of the class Obstacle
         this.create = create;
         this.draw = draw;
+        this.remove = remove;
     }
 
     start(){
@@ -67,7 +68,7 @@ class Game {
 
     removeObstacle(obstacle){
         this.obstacles.shift(); // remove from array
-        obstacle.domElement.remove(); // remove from the dom
+        this.remove(obstacle.domElement); // remove from the dom
     }
     
     movePlayer(direction){
