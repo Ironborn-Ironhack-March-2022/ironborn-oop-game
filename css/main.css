@@ -1,7 +1,10 @@
 #board {
     position: relative;
     background-color: rgb(161, 208, 202);
-    height: 100vh;  
+    height: 100vh;
+    background-image: url("../img//background.jpg");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
 }
 
 .player {
