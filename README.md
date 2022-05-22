@@ -29,13 +29,13 @@ Functionality:
 - drop different things (prizes, different types of obstacles...)
 - count points
 - improve game over
-- leves
+- levels (ex. increasing speed as user moves to the next level)
 - multiple lives
 - allow moving the player up and down
 - settings (speed of the game, distance between obstacles)
 
 UX:
-- add images (background, player, obstacles)
+- add images (background, player, obstacles...)
 - sound
 
 Code quality:

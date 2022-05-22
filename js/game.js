@@ -1,5 +1,3 @@
-
-
 class Game {
     constructor(create, draw, remove){
         this.time = 0;
